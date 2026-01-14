@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Origen Coffee Lab | Café de especialidad</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <header class="header">
+      <nav class="nav container">
+        <a class="brand" href="#home" aria-label="Ir al inicio">
+          <span class="brand__dot"></span>
+          <span class="brand__text">Origen Coffee Lab</span>
+        </a>
+
+        <!-- Hamburguesa sin JS -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label for="menu-toggle" class="hamburger" aria-label="Abrir menú">
+          <span></span><span></span><span></span>
+        </label>
+
+        <ul class="nav__links">
+          <li><a href="#about">Sobre nosotros</a></li>
+          <li><a href="#products">Tienda</a></li>
+          <li><a href="#workshops">Talleres</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li class="nav__cta">
+            <a class="btn btn--ghost" href="login.html">Ingresar</a>
+            <a class="btn btn--primary" href="register.html">Crear cuenta</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <main id="home">
+      <section class="hero">
+        <div class="hero__bg" role="img"
+          aria-label="Taza de café y granos de café"></div>
+
+        <div class="container hero__content">
+          <div class="hero__text">
+            <p class="pill">Café de especialidad • Accesorios • Talleres</p>
+            <h1>Un café que se siente. Una rutina que se transforma.</h1>
+            <p class="hero__lead">
+              Seleccionamos granos de origen, tostamos en pequeños lotes y te
+              enseñamos a preparar una taza increíble
+              en casa. Comprá online o visitanos en el local.
+            </p>
+
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#products">Ver productos</a>
+              <a class="btn btn--ghost" href="#workshops">Explorar talleres</a>
+            </div>
+
+            <div class="hero__stats">
+              <div class="stat">
+                <span class="stat__num">48h</span>
+                <span class="stat__label">Envíos en todo el país</span>
+              </div>
+              <div class="stat">
+                <span class="stat__num">4.9★</span>
+                <span class="stat__label">Reseñas reales</span>
+              </div>
+              <div class="stat">
+                <span class="stat__num">100%</span>
+                <span class="stat__label">Tostado fresco</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__card">
+            <h3>Combo Inicio</h3>
+            <p class="muted">Ideal para arrancar con café de especialidad.</p>
+            <ul class="checklist">
+              <li>250g Brasil chocolateado</li>
+              <li>Filtro V60 + 40 filtros</li>
+              <li>Guía de preparación (PDF)</li>
+            </ul>
+            <div class="hero__price">
+              <span class="price">$58.900</span>
+              <span class="muted">Stock limitado</span>
+            </div>
+            <a class="btn btn--primary btn--block" href="#products">Quiero el
+              combo</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT / BENEFICIOS -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Sobre nosotros</h2>
+            <p class="section__sub">
+              En Origen Coffee Lab trabajamos café de especialidad con foco en
+              el origen y el proceso.
+              Seleccionamos granos de calidad, tostamos en pequeños lotes y
+              cuidamos cada detalle para lograr una taza equilibrada y honesta.
+
+              Compartimos café y conocimiento. Porque entender el proceso
+              también es parte de disfrutarlo.
+            </p>
+          </div>
+
+          <div class="grid-3">
+            <article class="feature">
+              <h3>Selección consciente</h3>
+              <p>
+                Elegimos cafés de especialidad por su perfil y consistencia.
+                Cada grano responde a una decisión clara y a un estándar que
+                respetamos.
+              </p>
+            </article>
+
+            <article class="feature">
+              <h3>Tostado preciso</h3>
+              <p>
+                Tostamos en pequeños lotes y ajustamos cada curva para resaltar
+                dulzor, balance y carácter. El tostado no busca impresionar,
+                busca funcionar.
+              </p>
+            </article>
+
+            <article class="feature">
+              <h3>Conocimiento compartido</h3>
+              <p>
+                Acompañamos a quienes quieren entender el café y prepararlo
+                mejor. Sin vueltas, sin dogmas: técnica clara, práctica real y
+                criterio.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCTS / CARDS CON IMÁGENES -->
+      <section id="products" class="section section--alt">
+        <div class="container">
+          <div class="section__head">
+            <h2>Tienda</h2>
+            <p class="section__sub">Café de especialidad y accesorios
+              esenciales, elegidos por su calidad y funcionalidad.</p>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <img src="./Imagenes/Café Brasil 250g.webp"
+                alt="Bolsa de café Brasil 250g" class="card__img" />
+              <div class="card__body">
+                <h3>Brasil • 250g</h3>
+                <p class="muted">Chocolate, avellana, cuerpo medio.</p>
+                <div class="card__row">
+                  <span class="price">$21.700</span>
+                  <a class="btn btn--small btn--primary"
+                    href="#contact">Comprar</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="./Imagenes/Café Colombia 250g.webp"
+                alt="Bolsa de café Colombia 250g" class="card__img" />
+              <div class="card__body">
+                <h3>Colombia • 250g</h3>
+                <p class="muted">Caramelo, frutas rojas, final dulce.</p>
+                <div class="card__row">
+                  <span class="price">$24.900</span>
+                  <a class="btn btn--small btn--primary"
+                    href="#contact">Comprar</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="./Imagenes/Dripper v60.jpg"
+                alt="Dripper V60 para preparar café" class="card__img" />
+              <div class="card__body">
+                <h3>V60 + filtros</h3>
+                <p class="muted">Preparación limpia y aromática.</p>
+                <div class="card__row">
+                  <span class="price">$42.400</span>
+                  <a class="btn btn--small btn--primary"
+                    href="#contact">Comprar</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="card">
+              <img src="./Imagenes/Jarra.jpg"
+                alt="Jarra de leche y termómetro para latte art"
+                class="card__img" />
+              <div class="card__body">
+                <h3>Kit Latte</h3>
+                <p class="muted">Jarra + termómetro para practicar.</p>
+                <div class="card__row">
+                  <span class="price">$25.900</span>
+                  <a class="btn btn--small btn--primary"
+                    href="#contact">Comprar</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- TALLERES -->
+      <section id="workshops" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Talleres</h2>
+            <p class="section__sub">Clases prácticas y enfocadas en técnica
+              real.
+              Aprendés a preparar mejor café, con criterio y confianza.</p>
+          </div>
+
+          <div class="grid-2">
+            <article class="workshop">
+              <h3>Barista Inicial</h3>
+              <p class="muted">2 horas • Cupos reducidos</p>
+              <p>
+                Fundamentos esenciales para preparar mejor café en casa.
+                Trabajamos molienda, proporciones, tiempos de extracción y
+                criterios para corregir resultados.
+                Orientado a métodos como prensa francesa, moka y V60.
+              </p>
+              <div class="workshop__meta">
+                <span class="tag">Sábados</span>
+                <span class="tag">$22.000</span>
+                <span class="tag">Incluye degustación</span>
+              </div>
+            </article>
+
+            <article class="workshop">
+              <h3>Latte Art</h3>
+              <p class="muted">2 horas • Nivel básico</p>
+              <p>
+                Introducción al trabajo con leche y vertido controlado.
+                Práctica guiada de texturizado, temperatura y técnica para
+                lograr figuras clásicas como corazón y rosetta.
+              </p>
+              <div class="workshop__meta">
+                <span class="tag">Domingos</span>
+                <span class="tag">$25.000</span>
+                <span class="tag">Leche incluida</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTO -->
+      <section id="contact" class="section section--alt">
+        <div class="container">
+          <div class="section__head">
+            <h2>Contacto</h2>
+            <p class="section__sub">¿Querés comprar, reservar taller o hacer una
+              consulta? Te respondemos rápido.</p>
+          </div>
+
+          <div class="contact">
+            <form class="form" action="#" method="post">
+              <div class="form__row">
+                <label>
+                  Nombre
+                  <input type="text" name="name" placeholder="Tu nombre"
+                    required />
+                </label>
+
+                <label>
+                  Email
+                  <input type="email" name="email"
+                    placeholder="tunombre@mail.com" required />
+                </label>
+              </div>
+
+              <label>
+                Motivo
+                <select name="reason" required>
+                  <option value selected disabled>Elegí una opción</option>
+                  <option value="compra">Compra de producto</option>
+                  <option value="taller">Reserva de taller</option>
+                  <option value="mayorista">Consulta mayorista</option>
+                  <option value="otro">Otro</option>
+                </select>
+              </label>
+
+              <label>
+                Mensaje
+                <textarea name="message" rows="5"
+                  placeholder="Contanos qué necesitás..." required></textarea>
+              </label>
+
+              <button class="btn btn--primary btn--block" type="submit">Enviar
+                mensaje</button>
+              <p class="muted form__hint">
+                Horario de atención: Lun a Sáb de 9:00 a 20:00.
+              </p>
+            </form>
+
+            <aside class="contact__info">
+              <div class="info-box">
+                <h3>Datos</h3>
+                <p><strong>WhatsApp:</strong> +54 9 353 000-0000</p>
+                <p><strong>Email:</strong> OrigenCoffeeLab@gmail.com</p>
+                <p><strong>Dirección:</strong> Villa María, Córdoba</p>
+              </div>
+
+              <div class="map">
+                <iframe
+                  title="Mapa de ubicación"
+                  src="https://www.google.com/maps?q=Villa%20Maria%20Cordoba&output=embed"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div>
+          <p class="footer__brand">Origen Coffee Lab</p>
+          <p class="muted">Café de especialidad en Córdoba. Productos y talleres
+            para aprender y disfrutar.</p>
+        </div>
+
+        <div>
+          <p class="footer__title">Secciones</p>
+          <ul class="footer__links">
+            <li><a href="#about">Sobre nosotros</a></li>
+            <li><a href="#products">Tienda</a></li>
+            <li><a href="#workshops">Talleres</a></li>
+            <li><a href="#contact">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer__title">Acceso</p>
+          <ul class="footer__links">
+            <li><a href="login.html">Ingresar</a></li>
+            <li><a href="register.html">Crear cuenta</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer__bottom">
+        <p class="muted">© 2026 Origen Coffee Lab. Proyecto académico de Diseño Web.</p>
+      </div>
+    </footer>
+  </body>
+</html>

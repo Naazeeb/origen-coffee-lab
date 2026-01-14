@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Origen Coffee Lab</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="brand" href="index.html#home">
+        <span class="brand__dot"></span>
+        <span class="brand__text">Origen Coffee Lab</span>
+      </a>
+      <a class="btn btn--ghost" href="index.html#home">Volver al inicio</a>
+    </nav>
+  </header>
+
+  <main class="section">
+    <div class="container" style="max-width: 520px;">
+      <div class="section__head">
+        <h2>Ingresar</h2>
+        <p class="section__sub">Accedé para reservar talleres y guardar tus pedidos.</p>
+      </div>
+
+      <form class="form" action="#" method="post">
+        <label>
+          Email
+          <input type="email" name="email" placeholder="tunombre@mail.com" required />
+        </label>
+
+        <label>
+          Contraseña
+          <input type="password" name="password" placeholder="********" required />
+        </label>
+
+        <button class="btn btn--primary btn--block" type="submit">Entrar</button>
+
+        <p class="muted" style="margin: .9rem 0 0;">
+          ¿No tenés cuenta? <a href="register.html" style="text-decoration: underline;">Crear una</a>
+        </p>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
