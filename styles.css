@@ -91,7 +91,7 @@ a {
 }
 
 .brand__logo{
-  height: 32px;        /* tamaño del logo en el navbar */
+  height: 50px;        /* tamaño del logo en el navbar */
   width: auto;         /* mantiene proporción */
   display: block;
   object-fit: contain;
