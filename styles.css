@@ -82,16 +82,19 @@ a {
   letter-spacing: .2px;
 }
 
-.brand__dot {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--primary), var(--primary-2));
-  box-shadow: 0 0 0 6px rgba(196, 138, 80, .16);
+.brand__dot{
+  display: none;
 }
 
 .brand__text {
   font-size: 1rem;
+}
+
+.brand__logo{
+  height: 32px;        /* tamaño del logo en el navbar */
+  width: auto;         /* mantiene proporción */
+  display: block;
+  object-fit: contain;
 }
 
 .nav__links {
