@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Origen Coffee Lab | Café de especialidad</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="./favicon.ico?v=3" sizes="any" />
+  <link rel="shortcut icon" href="./favicon.ico?v=3" type="image/x-icon" />
+  <link rel="icon" href="./assets/favicon.png?v=3" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="./assets/favicon.png?v=3" sizes="180x180" />
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="brand" href="index.html#home">
+        <span class="brand__dot"></span>
+        <img
+          class="brand__logo"
+          src="./assets/logo.png"
+          alt="Origen Coffee Lab" />
+      </a>
+      <a class="btn btn--ghost" href="index.html#home">Volver al inicio</a>
+    </nav>
+  </header>
+
+  <main class="section">
+    <div class="container" style="max-width: 520px;">
+      <div class="section__head">
+        <h2>Crear cuenta</h2>
+        <p class="section__sub">Registrate y recibí novedades de nuevos orígenes y talleres.</p>
+      </div>
+
+      <form class="form" action="#" method="post">
+        <label>
+          Nombre
+          <input type="text" name="name" placeholder="Tu nombre" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" placeholder="tunombre@mail.com" required />
+        </label>
+
+        <label>
+          Contraseña
+          <input type="password" name="password" placeholder="Mínimo 8 caracteres" required />
+        </label>
+
+        <label>
+          Confirmar contraseña
+          <input type="password" name="password2" placeholder="Repetí tu contraseña" required />
+        </label>
+
+        <button class="btn btn--primary btn--block" type="submit">Crear cuenta</button>
+
+        <p class="muted" style="margin: .9rem 0 0;">
+          ¿Ya tenés cuenta? <a href="login.html" style="text-decoration: underline;">Ingresar</a>
+        </p>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
+
